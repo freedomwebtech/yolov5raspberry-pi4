@@ -1,5 +1,5 @@
 
-sudo apt-get install python3-pip libjpeg-dev libopenblas-dev libopenmpi-dev libomp-dev
+sudo apt-get -y install python3-pip libjpeg-dev libopenblas-dev libopenmpi-dev libomp-dev
 sudo -H pip3 install gdown
 gdown https://drive.google.com/uc?id=1E4bP9NAG5pDSXGWYPGsJ5uzFBq47VN14
 sudo -H pip3 install torch-1.8.0a0+37c1f4a-cp39-cp39-linux_aarch64.whl
